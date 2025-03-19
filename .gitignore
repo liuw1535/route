@@ -4,3 +4,4 @@ main.js.*
 node_modules/
 config_waste.js
 config.js
+logs/
