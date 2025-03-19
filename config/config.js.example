@@ -1,0 +1,10 @@
+module.exports = [
+  {
+    "apiUrl": "http://xxxxx.xx",
+    "apiKey": "sk-text1"
+  },
+  {
+    "apiUrl": "https://xxxxxxxx.xx",
+    "apiKey": "sk-QWUQTLfjvf"
+  }
+];

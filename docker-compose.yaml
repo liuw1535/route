@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  route:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: route
+    volumes:
+      - ./config:/app/config
+      - ./logs:/app/logs
+    ports:
+      - "8001:8001"
